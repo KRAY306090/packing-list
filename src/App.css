@@ -5,6 +5,14 @@
   padding: 24px;
   background: #fff;
 }
+.entry-background {
+  background: url(assets/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 100vh;
+}
 #components-layout-demo-top .logo {
   float: left;
   width: 120px;
