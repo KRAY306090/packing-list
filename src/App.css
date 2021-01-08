@@ -5,13 +5,18 @@
   padding: 24px;
   background: #fff;
 }
+.login-form {
+  padding: 50px 25px;
+  background-color: white;
+
+}
 .entry-background {
   background: url(assets/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 100vh;
+  padding: 30vh;
 }
 #components-layout-demo-top .logo {
   float: left;

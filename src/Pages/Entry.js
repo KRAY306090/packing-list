@@ -1,16 +1,12 @@
 import React from 'react';
-import { Layout } from 'antd';
 
-const { Content, Sider } = Layout;
+import Login from '../components/Login';
 
 const Entry = () => {
     return (
-            <Layout>
-                <Layout>
-                    <Content className="entry-background"></Content>
-                </Layout>
-                <Sider></Sider>
-            </Layout>
+            <div className="entry-background">
+                <Login></Login>
+            </div>
     );
 }
 
