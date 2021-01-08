@@ -1,6 +1,8 @@
 import React from 'react';
 import { Layout, Typography, Checkbox, List, Row, Col } from 'antd';
+
 import Navigation from '../components/Navigation';
+import Weather from '../components/Weather';
 
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
@@ -21,6 +23,7 @@ const SingleTrip = () => {
             </Header>
             <Content style={{ padding: '0 50px' }}>
                 <Title className="mainTitle" level={2}>Cancun</Title>
+                    <Weather></Weather>
                 <Row gutter={[32, 32]}>
                     <Col xs={{ span: 24 }} lg={{ span: 12 }}>
                         <div className="site-layout-content">
